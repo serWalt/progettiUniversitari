@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    color: white;
+    background-color: green;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 250px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    min-height: 450px;
+    
+}
+
+article.artdx {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    margin-right: 820px;
+    border-right: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    min-height: 450px;
+    
+}
+
+div.absolute {
+    position: absolute;
+    margin-right: 50px;
+    top: 130px;
+    right: 0;
+    border: 3px solid #73AD21;
+}
+
+div.absolute_tab {
+    position: absolute;
+    margin-right: 150px;
+    top: 130px;
+    right: 0;
+    border: 3px solid #73AD21;
+}
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color:#ccc;
+}
+.tg td{
+	padding:10px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#ccc;
+	color:#333;
+	background-color:#fff;
+	border-top-width:1px;
+	border-bottom-width:1px;
+}
+
+.tg th{
+	padding:10px 5px;
+	border-style:solid;
+	border-width:0px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:#ccc;
+	color:#333;
+	background-color:#f0f0f0;
+	border-top-width:1px;
+	border-bottom-width:1px;
+}
+
+.tg .tg2{
+	vertical-align:top
+}
+
